@@ -34,7 +34,6 @@ export const registerGlucoseLevel = (glucoseData) => {
                 }
             })
             .catch((error)=>{
-                // return Promise.reject(error);
                 return dispatch(apiErrorHandler(error));
             })
     };
